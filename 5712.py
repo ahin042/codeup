@@ -1,0 +1,6 @@
+a = int(input())
+n = list(map(int,input().split()))
+n.sort()
+n.reverse()
+print(n[0])
+print(n[3])
